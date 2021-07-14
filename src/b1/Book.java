@@ -50,9 +50,9 @@ public class Book {
     }
 
     public String getBookInfor(){
-        String s="";
-        s+="name: " +this.name+", number: "+ this.number+", author: "+this.authorName+", publisher: "+this.publisher+"\n";
         
-        return s;
+    	return "name: " +this.name+", number: "+ this.number+", author: "+this.authorName+", publisher: "+this.publisher+"\n";
+        
+ 
     }
 }

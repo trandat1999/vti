@@ -13,7 +13,7 @@ public class BookTest {
             listBook.add(book);
         }
         for(Book book: listBook){
-            book.getBookInfor();
+            System.out.println(book.getBookInfor());
         }
     }
 }
